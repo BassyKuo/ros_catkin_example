@@ -1,17 +1,16 @@
-# Quickstart
-https://catkin-tools.readthedocs.io/en/latest/quick_start.html
+## Quickstart
 
 #### The following is an example workflow and sequence of commands using default settings:
 
 ```sh
 source /opt/ros/kinetic/setup.bash                  # Setup the general ROS environmnet variables.
 
-mkdir -p ~/ros_workspace_example/src                    # Create your own workspace. (Actions are only allowed in the `src/`)
+mkdir -p ~/ros_workspace_example/src                # Create your own workspace. (Actions are only allowed in the `src/`)
 cd ~/ros_workspace_example/
 
 catkin init                                         # Initialize it with a hidden marker file.
 
-cd ~/ros_workspace_example/src/                         # Navigate to the source space, and create your own packages.
+cd ~/ros_workspace_example/src/                     # Navigate to the source space, and create your own packages.
 catkin create pkg pkg_a
 catkin create pkg pkg_b
 catkin create pkg pkg_c --catkin-deps pkg_a
@@ -23,12 +22,13 @@ catkin build                                        # Build all packages in the 
 cd ..                                               # Load this workspace's environment.
 source devel/setup.bash
 ```
+###### _(refer to https://catkin-tools.readthedocs.io/en/latest/quick_start.html)_
 
----
+
 
 ## Catkin Actions' DEMOs
 
-### Initialize it with a hidden marker file
+#### Initialize it with a hidden marker file
 ```sh
 $ pwd
 /home/root/ros_workspace_example
@@ -63,7 +63,7 @@ Workspace configuration appears valid.
 ------------------------------------------------------------------------------------
 ```
 
-### List the packages in the workspace
+#### List the packages in the workspace
 ```sh
 $ pwd
 /home/root/ros_workspace_example/src
@@ -91,7 +91,7 @@ $ catkin list
 - pkg_d
 ```
 
-### Build all packages in the workspace
+#### Build all packages in the workspace
 ```sh
 $ pwd
 /home/root/ros_workspace_example/src
@@ -146,7 +146,7 @@ Finished  <<< pkg_d                                [ 1.1 seconds ]
 [build] Note: Workspace packages have changed, please re-source setup files to use them.
 ```
 
-### Clean all the build products
+#### Clean all the build products
 ```sh
 $ pwd
 /home/root/ros_workspace_example
