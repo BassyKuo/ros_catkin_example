@@ -1,7 +1,7 @@
 # Quickstart
-> https://catkin-tools.readthedocs.io/en/latest/quick_start.html
+https://catkin-tools.readthedocs.io/en/latest/quick_start.html
 
-## The following is an example workflow and sequence of commands using default settings:
+#### The following is an example workflow and sequence of commands using default settings:
 
 ```sh
 source /opt/ros/kinetic/setup.bash                  # Setup the general ROS environmnet variables.
@@ -26,9 +26,9 @@ source devel/setup.bash
 
 ---
 
-# Catkin Actions' DEMOs
+## Catkin Actions' DEMOs
 
-## Initialize it with a hidden marker file
+### Initialize it with a hidden marker file
 ```sh
 $ pwd
 /home/root/ros_workspace_example
@@ -63,7 +63,7 @@ Workspace configuration appears valid.
 ------------------------------------------------------------------------------------
 ```
 
-## List the packages in the workspace
+### List the packages in the workspace
 ```sh
 $ pwd
 /home/root/ros_workspace_example/src
@@ -91,7 +91,7 @@ $ catkin list
 - pkg_d
 ```
 
-## Build all packages in the workspace
+### Build all packages in the workspace
 ```sh
 $ pwd
 /home/root/ros_workspace_example/src
@@ -146,7 +146,7 @@ Finished  <<< pkg_d                                [ 1.1 seconds ]
 [build] Note: Workspace packages have changed, please re-source setup files to use them.
 ```
 
-## Clean all the build products
+### Clean all the build products
 ```sh
 $ pwd
 /home/root/ros_workspace_example
